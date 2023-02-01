@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste Joueurs</title>
+    <script type="text/javascript" src="ListeEquipe.js"></script>
+    <link rel="stylesheet" href="Liste.css">
+</head>
+<body>
+    <div id="wrapper">
+        <img src="eqpsmaroc.png" id="eqpsmaroc">
+        <h1 id="h1">Equipe De Maroc : Palmarés</h1>
+        <p id="p">Coupe d'Afrique des Nations x1 (1976)</br>
+           Champoinnat d'Afrique Des Nations x2 (2018,2020)</p>
+          <h1 id="h1">Listes Des Joueurs</h1> 
+        <table  cellspacing=2 cellpadding=5 id="data_table"  >
+            <tr>
+                <td><h2>Nom</h2></td>
+                <td><h2>Prenom</h2></td>
+                <td><h2>Numéro</h2></td>
+            </tr>
+
+            <tr id="row1">
+                <td id="name_row1">Bono</td>
+                <td id="country_row1">Yassine</td>
+                <td id="age_row1">1</td>
+                <td>
+                    <input type="button" id="edit_button1" value="/" class="edit" title="Modifier" onclick="edit_row('1')">
+                    <input type="button" id="save_button1" value="+" class="save" title="Ajouter" onclick="save_row('1')">
+                    <input type="button" value="-" class="delete" title="Supprimer" onclick="delete_row('1')">
+                </td>
+            </tr>
+
+            <tr id="row2">
+                <td id="name_row2">Tagnaouti</td>
+                <td id="country_row2">Reda</td>
+                <td id="age_row2">22</td>
+                <td>
+                    <input type="button" id="edit_button2" value="/" title="Modifier" class="edit" onclick="edit_row('2')">
+                    <input type="button" id="save_button2" value="+" title="Ajouter" class="save" onclick="save_row('2')">
+                    <input type="button" value="-" class="delete" title="Supprimer" onclick="delete_row('2')">
+                </td>
+            </tr>
+
+            <tr id="row3">
+                <td id="name_row3">Hakimi</td>
+                <td id="country_row3">Achraf</td>
+                <td id="age_row3">2</td>
+                <td>
+                    <input type="button" id="edit_button3" value="/" title="Modifier" class="edit" onclick="edit_row('3')">
+                    <input type="button" id="save_button3" value="+" title="Ajouter" class="save" onclick="save_row('3')">
+                    <input type="button" value="-" class="delete" title="Supprimer" onclick="delete_row('3')">
+                </td>
+            </tr>
+
+            <tr id="row4">
+                <td id="name_row4">Benoun</td>
+                <td id="country_row4">Badr </td>
+                <td id="age_row4">24</td>
+                <td>
+                    <input type="button" id="edit_button4" value="/" title="Modifier" class="edit" onclick="edit_row('4')">
+                    <input type="button" id="save_button4" value="+" class="save" onclick="save_row('4')">
+                    <input type="button" value="-" class="delete" title="Supprimer" onclick="delete_row('4')">
+                </td>
+            </tr>
+
+            <tr id="row5">
+                <td id="name_row5">Sabiri</td>
+                <td id="country_row5">Abdelhamid</td>
+                <td id="age_row5">11</td>
+                <td>
+                    <input type="button" id="edit_button5" value="/" title="Modifier" class="edit" onclick="edit_row('5')">
+                    <input type="button" id="save_button5" value="+" title="Ajouter" class="save" onclick="save_row('5')">
+                    <input type="button" value="-" class="delete" title="Supprimer" onclick="delete_row('5')">
+                </td>
+            </tr>
+
+            <tr id="row6">
+                <td id="name_row6"> El Khannouss</td>
+                <td id="country_row6">Bilal</td>
+                <td id="age_row6">23</td>
+                <td>
+                    <input type="button" id="edit_button6" value="/" title="Modifier" class="edit" onclick="edit_row('6')">
+                    <input type="button" id="save_button6" value="+" title="Ajouter" class="save" onclick="save_row('6')">
+                    <input type="button" value="-" class="delete" title="Supprimer" onclick="delete_row('6')">
+                </td>
+            </tr>
+
+            <tr id="row7">
+                <td id="name_row7"> Ziyech</td>
+                <td id="country_row7">Hakim</td>
+                <td id="age_row7">7</td>
+                <td>
+                    <input type="button" id="edit_button7" value="/" class="edit" title="Modifier" onclick="edit_row('7')">
+                    <input type="button" id="save_button7" value="+" titile="Ajouter" class="save" onclick="save_row('7')">
+                    <input type="button" value="-" title="Supprimer" class="delete" onclick="delete_row('7')">
+                </td>
+            </tr>
+
+            <tr id="row8">
+                <td id="name_row8">Aboukhlal</td>
+                <td id="country_row8">Zakaria </td>
+                <td id="age_row8">14</td>
+                <td>
+                    <input type="button" id="edit_button8" value="/" title="Modifier" class="edit" onclick="edit_row('8')">
+                    <input type="button" id="save_button8" value="+" title="Ajouter" class="save" onclick="save_row('8')">
+                    <input type="button" value="-" class="delete" title="Supprimer" onclick="delete_row('8')">
+                    </td>
+            </tr>
+
+            <tr id="row9">
+                <td id="name_row9"> Boufal</td>
+                <td id="country_row9">Sofiane</td>
+                <td id="age_row9">17</td>
+                <td>
+                    <input type="button" id="edit_button9" value="/" title="Modifier" class="edit" onclick="edit_row('9')">
+                    <input type="button" id="save_button9" value="+" title="Ajouter" class="save" onclick="save_row('9')">
+                    <input type="button" value="-" class="delete" title="Supprimer" onclick="delete_row('9')">
+                </td>
+            </tr>
+
+            <tr id="row10">
+                <td id="name_row10"> El Khannouss</td>
+                <td id="country_row10">Bilal</td>
+                <td id="age_row10">23</td>
+                <td>
+                    <input type="button" id="edit_button10" value="/" title="Modifier" class="edit" onclick="edit_row('10')">
+                    <input type="button" id="save_button10" value="+" title="Ajouter" class="save" onclick="save_row('10')">
+                    <input type="button" value="-" title="Supprimer" class="delete" onclick="delete_row('10')">
+                </td>
+            </tr>
+
+            <tr id="row11">
+                <td id="name_row11"> Zaroury</td>
+                <td id="country_row11">Anass</td>
+                <td id="age_row11">10</td>
+                <td>
+                    <input type="button" id="edit_button11" title="Modifier" value="/" class="edit" onclick="edit_row('11')">
+                    <input type="button" id="save_button11" title="Ajouter" value="+" class="save" onclick="save_row('11')">
+                    <input type="button" value="-" title="Supprimer" class="delete" onclick="delete_row('11')">
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="text" id="new_name"></td>
+                <td><input type="text" id="new_country"></td>
+                <td><input type="text" id="new_age"></td>
+                <td><input type="button" class="add" title="Ajouter" onclick="add_row();" value="Ajouter Nouveau"></td>
+            </tr> 
+        </table>
+    </div>
+    </div>
+</body>
+
+</html>

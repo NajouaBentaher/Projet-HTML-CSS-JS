@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Coupe Du Monde 2022</title>
+        <link rel="website icon" type="png" href="image/coora.png">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    
+    </head>
+<body>
+    <!-----------------------------volet 1----------------------------->
+    <header class="header">
+            <div id="slider">
+            <div class="image-slider">
+                <div class="image-slider-track">
+                    <div class="slide">
+                        <img class="image" src="images/i1.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="image" src="images/i2.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="image" src="images/i3.jpg">
+                    </div>
+                    <div class="slide">
+                        <img  class="image" src="images/i4.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="image" src="images/i5.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="image" src="images/i6.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="image" src="images/i7.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="image" src="images/i1.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="image" src="images/i2.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="image" src="images/i3.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="image" src="images/i4.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="image" src="images/i5.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="image" src="images/i3.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="image" src="images/i4.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="image" src="images/i5.jpg">
+                </div>
+            </div>
+        </div>
+    <!-------------------------------menu------------------------->
+        <div id="menu">
+        <nav>
+            <a href="mini-site Coupe Du MOnde 2022.html"  class="logo"><img src="images/logo.svg"></a>
+            <ul>
+                <li><a href="mini-site Coupe Du MOnde 2022.html">Accueil</a></li>
+                <li>
+                <a href="#">Groups<i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown">
+                    <li name="Group A"  onclick="afficheGroupeA()"><a href="#">Group A</a></li>
+                    <li name="Group B"  onclick="afficheGroupeB()"><a href="#">Group B</a></li>
+                    <li name="Group C"  onclick="afficheGroupeC()"><a href="#">Group C</a></li>
+                    <li name="Group D"  onclick="afficheGroupeD()" ><a href="#">Group D</a></li>
+                    <li name="Group E"  onclick="afficheGroupeE()"><a href="#">Group E</a></li>
+                    <li name="Group F"  onclick="afficheGroupeF()"><a href="#">Group F</a></li>
+                    <li name="Ajouter"  onclick="ajoutergroupe()"><a href="#">Ajouter</a></li>
+                </ul>
+                </li>
+                <li ><a href="#" onclick="match()">Matchs</a></li>
+                <li><a href="#" onclick="classement()">Classement</a></li>
+                <li><a href="#" onclick="contact()">Contact</a></li>
+                <li><a href="#">
+                <form class="box">
+                    <input type="text" name="" id="recherche1" placeholder="&nbsp;&nbsp; Tape ici...">
+                    <input type="submit" name="" id="recherche2" value="Recherche">
+                </form>
+                </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <!-------------------volet 2------------------------------->
+    <div id="volet2">
+    </br>
+        <label id="lblmess" class="eqps">Équips</label>
+    </br></br>
+        <table id="table" class="table">
+        <thead>
+            <tr>
+                <td><a href="#"><img class="imag-grp" src="./groups/ARG.jpg">
+                </br>
+                <h6>Argentine</br>&nbsp;&nbsp;(ARG)</h6></a>
+                </td>
+
+                <td><a href="#"><img class="imag-grp" src="./groups/AUS.jpg">
+                </br>
+                <h6>Australie</br>&nbsp;&nbsp;(AUS)</h6></a>
+                </td>
+
+                <td><a href="#"><img class="imag-grp" src="./groups/BEL.jpg">
+                </br>
+                <h6>Belgique</br>&nbsp;&nbsp;(BEL)</h6></a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="#"><img class="imag-grp" src="./groups/BRA.jpg">
+                </br>
+                <h6>Brésil</br>&nbsp;&nbsp;(BRA)</h6></a>
+                </td>
+
+                <td><a href="#"><img class="imag-grp" src="./groups/CMR.jpg">
+                </br>
+                <h6>Cameroun</br>&nbsp;&nbsp;(CMR)</h6></a>
+                </td>
+    
+                <td><a href="#"><img class="imag-grp" src="./groups/CAN.jpg">
+                </br>
+                <h6>Canada</br>&nbsp;&nbsp;(CAN)</h6></a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="#"><img class="imag-grp" src="./groups/CRC.jpg">
+                </br>
+                <h6>Costa Rico</br>&nbsp;&nbsp;(CRC)</h6></a>
+                </td>
+
+                <td>
+                <a href="#"><img class="imag-grp" src="./groups/CRO.jpg">
+                </br>
+                <h6>Croatie</br>&nbsp;&nbsp;(CRO)</h6></a>
+                </td>
+
+                <td>
+                <a href="#"><img class="imag-grp" src="./groups/DEN.jpg">
+                </br>
+                <h6>Danemark</br>&nbsp;&nbsp;(DEN)</h6></a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="#"><img class="imag-grp" src="./groups/ECU.jpg">
+                </br>
+                <h6>Equateur</br>&nbsp;&nbsp;(ECU)</h6></a>
+                </td>
+
+                <td><a href="#"><img class="imag-grp" src="./groups/ENG.jpg">
+                </br>
+                <h6>Angleterre</br>&nbsp;&nbsp;(ENG)</h6></a>
+                </td>
+
+                <td><a href="#"><img class="imag-grp" src="./groups/FRA.jpg">
+                </br>
+                <h6>France</br>&nbsp;&nbsp;(FRA)</h6></a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="#"><img class="imag-grp" src="./groups/GER.jpg">
+                </br>
+                <h6>Allemagne</br>&nbsp;&nbsp;(GER)</h6></a>
+                </td>
+
+                <td><a href="#"><img class="imag-grp" src="./groups/GHA.jpg">
+                </br>
+                <h6>Ghana</br>&nbsp;&nbsp;(GHA)</h6></a>
+                </td>
+                <td><a href="#"><img class="imag-grp" src="./groups/IRN.jpg">
+                </br>
+                <h6>Iran</br>&nbsp;&nbsp;(IRN)</h6></a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="#"><img class="imag-grp" src="./groups/JPN.jpg">
+                </br>
+                <h6>Japon</br>&nbsp;&nbsp;(JPN)</h6></a>
+                </td>
+
+                <td><a href="#"><img class="imag-grp" src="./groups/KOR.jpg">
+                </br>
+                <h6>Corée</br>&nbsp;&nbsp;(KOR)</h6></a>
+                </td>
+
+                <td><a href="#"><img class="imag-grp" src="./groups/MEX.jpg">
+                </br>
+                <h6>Mexique</br>&nbsp;&nbsp;(MEX)</h6></a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="#"><img class="imag-grp" onclick="team1()" src="./groups/MAR.jpg">
+                </br>
+                <h6 onclick="team1()">Maroc</br>&nbsp;&nbsp;(MAR)</h6></a>
+                </td>
+
+                <td><a href="#"><img class="imag-grp" src="./groups/NED.jpg">
+                </br>
+                <h6>Pays-Bas</br>&nbsp;&nbsp;(NED)</h6></a>
+                </td>
+
+                <td>
+                <a href="#"><img class="imag-grp" src="./groups/POL.jpg">
+                </br>
+                <h6>Pologne</br>&nbsp;&nbsp;(POL)</h6></a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="#"><img class="imag-grp" src="./groups/POR.jpg">
+                </br>
+                <h6>Portugal</br>&nbsp;&nbsp;(POR)</h6></a>
+                </td>
+
+                <td><a href="#"><img class="imag-grp" src="./groups/QAT.jpg">
+                </br>
+                <h6>Qatar</br>&nbsp;&nbsp;(QAT)</h6></a>
+                </td>
+
+                <td>
+                <a href="#"><img class="imag-grp" src="./groups/KSA.jpg">
+                </br>
+                <h6>Arabie Saoudite</br>&nbsp;&nbsp;(KSA)</h6></a>
+                </td>
+            </tr>
+
+            <tr>
+                <td><a href="#"><img class="imag-grp" src="./groups/SEN.jpg" >
+                </br>
+                <h6>Sénégal</br>&nbsp;&nbsp;(SEN)</h6></a>
+                </td>
+    
+                <td><a href="#"><img class="imag-grp" src="./groups/SRB.jpg">
+                </br>
+                <h6>Serbie</br>&nbsp;&nbsp;(SRB)</h6></a>
+                </td>
+
+                <td><a href="#"><img class="imag-grp" src="./groups/URU.jpg">
+                </br>
+                <h6>Uruguay</br>&nbsp;&nbsp;(URU)</h6></a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="#"><img class="imag-grp" src="./groups/WAL.jpg">
+                </br>
+                <h6>Pays de Galles</br>&nbsp;&nbsp;(WAL)</h6></a>
+            </tr>
+        </thead>
+        </table>
+<main>
+    <!------------------groupeA--------------> 
+    <div class="groups" id="groupeA">
+        <label class="Group">Group A</label>
+            <table class="tableA" id="table">
+            <tr>
+                <td id="bord"><a href="#"><img class="imag-grp" src="./groups/QAT.jpg" onclick="addTeamA()"></td>
+                <td class="nam" onclick="addTeamA()" >Qatar</td>
+            </tr>
+            <tr>
+                <td id="bord"><a href="#"><img class="imag-grp" src="./groups/ECU.jpg"></td>
+                <td class="nam">Ecuador</td>
+            </tr>
+            <tr>
+                <td id="bord"><a href="#">
+                <img class="imag-grp" src="./groups/SEN.jpg"></td>
+                <td class="nam">Senegal</td>
+            </tr>
+            <tr>
+                <td id="bord"><a href="#">
+                <img class="imag-grp" src="./groups/NED.jpg"></td>
+                <td class="nam"> Netherlands</td>
+            </tr>
+            </table>
+            <label for="text"></label> 
+            <input type="text"  placeholder="&nbsp; Ajouter image"  style="border-radius: 5px; border: 2px solid #003153; height : 30px ; width:100px; margin-left: 35px; margin-top: 10px;   " >  
+            <input type="text"  placeholder="Nom de groupe"  style="border-radius: 5px; border: 2px solid #003153; height : 30px ; width:100px; margin-left: 10px; margin-top: 10px;  " >          
+            </br></br>
+            <button  style="margin-left: 18%; color: #fff; background-color: #003153; width: 100px; border-radius: 5px; border: 0px; margin-left: 35px; height: 40px;">Modifier</button>
+            <button  style="color:#fff; background-color: #003153; border-radius: 5px; border: 0px; width: 100px; margin-left: 15px; height: 40px;"  ><h4>Supprimer</h4></button>
+    </div> 
+
+    <!------------------groupeB--------------> 
+    <div class="groups" id="groupeB">
+        <label class="Group">Group B</label>
+            <table class="tableA" id="table">
+            <tr>
+                <td id="bord"><a href="#">
+                <img class="imag-grp" src="./groups/ENG.jpg" onclick="addTeamB()" ></td>
+                <td class="nam" onclick="addTeamB()" >England</td>
+            </tr>
+            <tr>
+                <td id="bord"><a href="#"><img class="imag-grp" src="./groups/IRN.jpg"></td>
+                <td class="nam">Iran</td>
+            </tr>
+            <tr>
+                <td id="bord"><a href="#">
+                <img class="imag-grp" src="./groups/USA.jpg"></td>
+                <td class="nam"> USA</td>
+            </tr>
+            <tr>
+                <td id="bord"><a href="#">
+                <img class="imag-grp" src="./groups/WAL.jpg"></td>
+                <td class="nam">Wales</td>
+            </tr>
+            </table>
+            <label for="text"></label> 
+        <input type="text"  placeholder="&nbsp; Ajouter image"  style="border-radius: 5px; border: 2px solid #003153; height : 30px ; width:100px; margin-left: 35px; margin-top: 10px;   " >  
+        <input type="text"  placeholder="Nom de groupe"  style="border-radius: 5px; border: 2px solid #003153; height : 30px ; width:100px; margin-left: 10px; margin-top: 10px;  " >          
+        </br></br>
+        <button  style="margin-left: 18%; color: #fff; background-color: #003153; width: 100px; border-radius: 5px; border: 0px; margin-left: 35px; height: 40px;">Modifier</button>
+        <button  style="color:#fff; background-color: #003153; border-radius: 5px; border: 0px; width: 100px; margin-left: 15px; height: 40px;"  ><h4>Supprimer</h4></button>
+    
+    </div>  
+
+    <!------------------groupeC--------------> 
+    <div class="groups" id="groupeC">
+        <label class="Group">Group C</label>
+        <table class="tableA" id="table">
+            <tr>
+                <td id="bord"><a href="#">
+                <img class="imag-grp" src="./groups/ARG.jpg" onclick="addTeamC()" ></td>
+                <td class="nam" onclick="addTeamC()" >Argentine</td>
+            </tr>
+            <tr>
+                <td id="bord"><a href="#"><img class="imag-grp" src="./groups/SRB.jpg"></td>
+                <td class="nam"> Saudi Arabia</td>
+            </tr>
+            <tr>
+                <td id="bord"><a href="#">
+                <img class="imag-grp" src="./groups/MEX.jpg"></td>
+                <td class="nam">Mexico</td>
+            </tr>
+            <tr>
+                <td id="bord"><a href="#">
+                <img class="imag-grp" src="./groups/POL.jpg"></td>
+                <td class="nam">Poland</td>
+            </tr>
+        </table>
+        <label for="text"></label> 
+        <input type="text"  placeholder="&nbsp; Ajouter image"  style="border-radius: 5px; border: 2px solid #003153; height : 30px ; width:100px; margin-left: 35px; margin-top: 10px;   " >  
+        <input type="text"  placeholder="Nom de groupe"  style="border-radius: 5px; border: 2px solid #003153; height : 30px ; width:100px; margin-left: 10px; margin-top: 10px;  " >          
+    </br></br>
+        <button  style="margin-left: 18%; color: #fff; background-color: #003153; width: 100px; border-radius: 5px; border: 0px; margin-left: 35px; height: 40px;">Modifier</button>
+        <button  style="color:#fff; background-color: #003153; border-radius: 5px; border: 0px; width: 100px; margin-left: 15px; height: 40px;"  ><h4>Supprimer</h4></button>
+    </div> 
+
+    <!------------------groupeF--------------> 
+    <div class="groups" id="groupeF">
+        <label class="Group">Group F</label>
+            <table class="tableA" id="table3">
+            <tr>
+                <td id="bord"><a href="#"><img class="imag-grp" src="./groups/MAR.jpg" onclick="addTeam()"></td>
+                <td class="nam" onclick="addTeam()"> Maroc</td>
+            </tr>
+            <tr>
+                <td id="bord"><a href="#"><img class="imag-grp" src="./groups/BEL.jpg"></td>
+                <td class="nam"> Belgique</td>
+            </tr>
+            <tr>
+                <td id="bord"><a href="#"><img class="imag-grp" src="./groups/CAN.jpg"></td>
+                <td class="nam"> Canada</td>
+            </tr>
+            <tr>
+                <td id="bord"><a href="#"><img class="imag-grp" src="./groups/CRO.jpg"></td>
+                <td class="nam"> Croatie</td>
+            </tr>
+            </table>
+            <label for="text"></label> 
+            <input type="text" name="pre" placeholder="&nbsp; Ajouter image" id="pre" style="border-radius: 5px; border: 2px solid #003153; height : 30px ; width:100px; margin-left: 35px; margin-top: 10px;   " >  
+            <input type="text" name="pre" placeholder="Nom de groupe" id="pr" style="border-radius: 5px; border: 2px solid #003153; height : 30px ; width:100px; margin-left: 10px; margin-top: 10px;  " >          
+        </br></br>
+            <button onclick="Modif()" style="margin-left: 18%; color: #fff; background-color: #003153; width: 100px; border-radius: 5px; border: 0px; margin-left: 35px; height: 40px;">Modifier</button>
+            <button onclick="Suppri()" style="color:#fff; background-color: #003153; border-radius: 5px; border: 0px; width: 100px; margin-left: 15px; height: 40px;"  ><h4>Supprimer</h4></button>
+    </div>              
+    <div id="ajoutergroupe" class="ajjout" >
+        <input type="text"  placeholder="Ajouter un élement" class="txt">
+        <button  onclick="addElement()" style="color: #fff; background-color: #003153; width: 60px; border-radius: 5px; height: 40px; margin-left: 35px;">Ajouter</button> <br> <br>
+        <label>Ajouter: &nbsp;</label>
+        <input type="radio" name="position" value="debut" class="rad">
+        <label>Au début &nbsp;</label>
+        <input type="radio" name="position" value="fin" class="rad">
+        <label>a la fin</label> <br><br>
+        <table id="list" style="margin-top:5px; border: 2px solid #003153; border-radius: 5px; text-align: center; margin-left: 10px;">
+           
+        </table> 
+    </div>
+    </div>
+
+    <!--------------------volet 5--------------------->
+    <div id="volet5">
+        <a href="#"><img src="images/actualite.jpg" class="actualite"></br></br></br>
+        <h3 onclick="actualite()"> Maroc - Belgique: La Coupe du Monde est une surprise puisque les Lions de l’Atlas assomment les Diables Rouges et que le Costa Rica bat le Japon</h3>
+        </a>
+        <a href="#"><img src="images/actualite2.png" class="actualite2"> </a></br></br></br>
+        <a href="#"><img src="images/actualite3.png" class="actualite3"></a></br></br></br>
+        <h3 onclick="actualite()" class="h3">Coupe du monde 2022 : le retour des Lions Indomptables du Cameroun</h3>
+    </div>
+
+    <!---------------------volet 3 ---------------------->
+    <div id="volet3">
+        <img src="images/photo.jpeg" id="img">
+    </div>
+    
+    <!--------------------volet 4-------------------->
+    <div id="volet4">
+
+        <div id="imgvolet4">
+            <img src="images/vole4.jpg" id="img1volet4" style="width:915px; height: 372px ;">
+            <img src="images/vole4.jpg" id="img2volet4" style="width:915px; height: 372px ;">
+        </div>
+        <div id="player2">
+            <h1 style="text-align: center; color:#003153;  margin-top: 20px; ">Achraf Hakimi</h1>
+            <P style="color: rgb(41, 36, 36) ; font-size: 18px; margin-left: 10px; margin-right: 370px; margin-top: 15px; position: absolute; float: left;">Né le 4 novembre 1998 à Madrid de parents d'origine marocaine (son père est originaire de Oued Zem et sa mère de Ksar El Kébir) 
+            arrivés en 1980 en provenance du Maroc5. Il a grandi à Getafe, là où sa famille vit toujours avec sa petite sœur Ouidad Hakimi et son 
+            frère Nabil Hakimi6,7. Achraf Hakimi est issu d'une famille pauvre : son père, Hassan Hakimi est un vendeur de rue et sa mère, Fatima, 
+            est nettoyeuse dans des chantiers pour subvenir aux besoins familiaux. Bilingue, Achraf Hakimi s'exprime en arabe marocain à la maison 
+            et espagnol à l'école et dans le football.</P>
+            <img src="images/achrafhakimi.jpg" style="width:350px; position: absolute; margin-left: 550px; margin-top: 10px;">
+            <p style="color: rgb(41, 36, 36) ; font-size: 18px; margin-left: 10px; margin-right: 10px; margin-top: 280px; position: absolute; float: left;">
+                Achraf Hakimi s'initie au football dans un club de Madrid, le Club Deportivo Colonia Ofigevi (es). Enfant, il est fan de l'équipe du Maroc, notamment des joueurs Marouane Chamakh et Noureddine Naybet8. En 2006, alors qu'il est âgé de sept ans, il rejoint l'académie du Real Madrid2. Il s'inspire tout au long de sa jeunesse, de la carrière du footballeur brésilien Marcelo, rêvant de jouer à ses côtés, dit-il dans une interview avec la chaîne Al Aoula9.
+            </p>
+            <p style="color: rgb(41, 36, 36) ; font-size: 18px; margin-left: 10px; margin-right: 10px; margin-top: 420px; position: absolute; float: left;">
+                Avec l'équipe des moins de 19 ans du Real Madrid Castilla, il participe à la Ligue de la jeunesse de l'UEFA lors de la saison 2015-2016 et atteint les demi-finales, battu sur le score de 1-3 face au Paris Saint-Germain. Lors de la saison suivante, il réalise un nouveau bon parcours avec la Castilla, en Youth League 2016-2017. Il atteint encore les demi-finales et une défaite 2-4 face au Benfica Lisbonne. Durant cette même saison 2016-2017, le joueur évolue en D3 espagnole avec l'équipe du Real Madrid Castilla en tant que titulaire, disputant en total 28 matchs. Faisant de bonnes prestations, le jeune joueur est souvent appelé par l'entraîneur français Zinédine Zidane pour prendre part aux stages ainsi qu'aux entraînements de l'équipe première du Real Madrid10.
+            </p>
+        </div>
+        
+        <div id="volet41">
+        </div> 
+
+    <div id="TabMatch">
+            <h1 id="titre3"><span id="s1">L</span>ES MATCH</h1>
+            <table id="table1" border="2" >
+            <th>Le numero de Match</th>
+            <th> Groupe 1</th>
+            <th>Groupe 2</th>
+                <tr>
+                <td >Match 1 </td>
+                <td >Qatar  </td>
+                <td>Équateur  </td>
+                </tr>
+                <tr>
+                <td >Match 2</td>
+                    <td>Sénégal   </td>
+                    <td>Pays-Bas  </td>
+                </tr>
+                <tr>
+                    <td >Match 3 </td>
+                        <td>Angleterre   </td>
+                        <td>Iran  </td>
+                    </tr>
+                    <tr>
+                        <td > Match 4 </td>
+                    <td>États-Unis </td>
+                    <td> Pays de Galles  </td>
+                </tr>
+            
+                <tr>
+                <td >Match 5 </td>
+                    <td>Espagne </td>
+                    <td>Costa Rica</td>
+                </tr>
+                <tr>
+                    <td >Match 6 </td>
+                    <td> Tunisie</td>
+                    <td>Danemark</td>
+                </tr>
+            </table> 
+            <div id="li">
+                <label for="text"></label> 
+                <input type="text" name="nom" placeholder="Nom de match" id="nom1" style="margin-left: 1%; width: 150px; height:30px; border-radius: 4px; margin-top: 1%; margin-left: 0%; " >&nbsp;&nbsp;
+                <input type="text" name="nom" placeholder="Nom  de group1" id="nom2"  style="margin-left: 1%; width: 150px; height:30px; border-radius: 4px; margin-top: 1%; margin-left: 0%; " > &nbsp;&nbsp;
+                <input type="text" name="nom" placeholder="Nom de group2" id="nom3" style="margin-left: 1%; width: 150px; height:30px; border-radius: 4px; margin-top: 1%; margin-left: 0%; " >      
+                <button onclick="Ajou();" style="margin-left: 1%; height:30px; text-align: center; width: 110px; border-radius: 4px; margin-top: 1%;">Ajouter  Match</button>             
+                <button onclick="Mod();" style="margin-left: 1%; height:30px; border-radius: 4px; text-align: center; width: 110px; margin-top: 1%;">modifier Match</button>
+                <button onclick="Supp();" style="margin-left: 1%; height:30px; border-radius: 4px; text-align: center; width: 120px; margin-top: 1%;">Supprimer Match</button>
+            </div>              
+    </div>
+
+    <div id="vole4">
+        <h1 id="titre4"><span id="s2">L</span>es classements</h1>
+            <table id="table2" border="2" >
+            <th> Equipe</th>
+            <th> Matchs joues</th>
+            <th>Points</th>
+            <tr>
+                <td >Blgique</td>
+                <td >0  </td>
+                <td>0 </td>
+            </tr>
+            <tr>
+                <td >Canada</td>
+                <td>0 </td>
+                <td>0 </td>
+            </tr>
+            <tr>
+                <td >Croatie</td>
+                <td>1   </td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td > Maroc   </td>
+                <td>1 </td>
+                <td> 1 </td>
+            </tr>
+            </table> 
+            <label for="text"></label> 
+            <input type="text" name="N" placeholder="Nom d'equipe" id="N1"  style="margin-left: 1%; width: 150px; height:30px; border-radius: 4px; margin-top: 1%; margin-left: 4.6%; ">
+            <input type="number" name="N" placeholder="Match joues" id="N2" style="margin-left: 1%; width: 150px; height:30px; border-radius: 4px; margin-top: 1%;">
+            <input type="number" name="N" placeholder="Point" id="N3" style="margin-left: 1%; width: 150px; height:30px; border-radius: 4px; margin-top: 1%;">      
+            <button onclick="A();" style="margin-left: 1%; height:30px; border-radius: 4px; margin-top: 1%; ">Ajouter  Match</button>             
+            <button onclick="M();" style="margin-left: 1%; height:30px; border-radius: 4px; margin-top: 1%;" >modifier Match</button>
+            <button onclick="S();" style="margin-left: 1%; height:30px; border-radius: 4px; margin-top: 1%;" >Supprimer Match</button>
+        </div>
+    </div>
+
+    <!---------------------volet 2 3 ------------------>
+    <div id="volet23">
+
+        <div id="footTabMatch">
+            <h1 id="foottitre3"><span id="foots1">L</span>ES MATCH</h1>
+            <table id="foottable1" border="2" >
+            <th>Le numero de Match</th>
+            <th> Groupe 1</th>
+            <th>Groupe 2</th>
+                <tr>
+                    <td >Match 1  </td>
+                    <td >Qatar  </td>
+                    <td>Équateur  </td>
+                </tr>
+                <tr>
+                    <td >Match 2</td>
+                    <td>Sénégal   </td>
+                    <td>Pays-Bas  </td>
+                </tr>
+                <tr>
+                    <td >Match 3 </td>
+                    <td>Angleterre   </td>
+                    <td>Iran  </td>
+                </tr>
+                <tr>
+                        <td > Match 4 </td>
+                        <td>États-Unis </td>
+                        <td> Pays de Galles  </td>
+                </tr>
+                <tr>
+                    <td >Match 5 </td>
+                    <td>Espagne </td>
+                    <td>Costa Rica</td>
+                </tr>
+                <tr>
+                    <td >Match 6 </td>
+                    <td> Tunisie</td>
+                    <td>Danemark</td>
+                </tr>
+                </table> 
+            <div id="footli">
+            <label for="text"></label> 
+                <input type="text" name="nom" placeholder="Nom de match" id="nom1" style="margin-left: 1%; width: 150px; height:30px; border-radius: 4px; margin-top: 1%; margin-left: 15%;  " >
+                <input type="text" name="nom" placeholder="Nom  de group1" id="nom2"   style="margin-left: 1%; width: 150px; height:30px; border-radius: 4px; margin-top: 1%;" > 
+                <input type="text" name="nom" placeholder="Nom de group2" id="nom3" style="margin-left: 1%; width: 150px; height:30px; border-radius: 4px; margin-top: 1%; " >      
+                <button onclick="Ajou();" style="margin-left: 1%; height:30px; border-radius: 4px; margin-top: 0%;">Ajouter  Match</button>             
+                <button onclick="Mod();"  style="margin-left: 1%; height:30px; border-radius: 4px; margin-top: 0%;">modifier Match</button>
+                <button onclick="Supp();" style="margin-left: 1%; height:30px; border-radius: 4px; margin-top: 0%;">Supprimer Match</button>
+            </div>              
+            </div>
+
+        <div id="class23">
+            <h1 id="classtitre4"><span id="classs2">L</span>es classements</h1>
+                <table id="classtable2" border="2" >
+                <th> Equipe</th>
+                <th> Matchs joues</th>
+                <th>Points</th>
+                <tr>
+                    <td >Blgique</td>
+                    <td >0  </td>
+                    <td>0 </td>
+                </tr>
+                <tr>
+                    <td >Canada</td>
+                    <td>0 </td>
+                    <td>0 </td>
+                </tr>
+                <tr>
+                    <td >Croatie</td>
+                    <td>1   </td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td > Maroc   </td>
+                    <td>1 </td>
+                    <td> 1 </td>
+                </tr>
+                </table> 
+                <label for="text"></label> 
+                <input type="text" name="N" placeholder="Nom d'equipe" id="N1"  style="margin-left: 1%; width: 150px; height:30px; border-radius: 4px; margin-top: 1%; margin-left: 15%; ">
+                <input type="number" name="N" placeholder="Match joues" id="N2" style="margin-left: 1%; width: 150px; height:30px; border-radius: 4px; margin-top: 1%;">
+                <input type="number" name="N" placeholder="Point" id="N3" style="margin-left: 1%; width: 150px; height:30px; border-radius: 4px; margin-top: 1%;">      
+                <button onclick="classA();" style="margin-left: 1%; height:30px; border-radius: 4px; margin-top: 1%; ">Ajouter  Match</button>             
+                <button onclick="Mclass();" style="margin-left: 1%; height:30px; border-radius: 4px; margin-top: 1%;" >modifier Match</button>
+                <button onclick="Sclass();" style="margin-left: 1%; height:30px; border-radius: 4px; margin-top: 1%;" >Supprimer Match</button>
+            </div>
+
+    </div>
+    <!----------------volet 2 3 4 ---------------->
+    <div id="volet234">
+    </div>
+
+    <!----------------contact -------------------------->
+	<div id="contact">
+        <div class="container">
+            <div class="contact-box">
+                <div class="left"></div>
+                <div class="right">
+                    <h2>Contactez-Nous</h2>
+                    <input type="text" class="field" placeholder="Votre Nom">
+                    <input type="text" class="field" placeholder="Votre Email">
+                    <input type="text" class="field" placeholder="Téléphone">
+                    <textarea placeholder="Message" class="field"></textarea>
+                    <a href="mini-site Coupe Du MOnde 2022.html"><button class="btn" > Envoyer Message </button></a>
+                </div>
+            </div>
+        </div>
+    </div>    
+    
+    <!------------------------footer--------------------------> 
+    
+    <footer> 
+        <div class="box">
+            <h3 id="e">A propos de nous</h3>
+            <p>Notre site vous permet de connaître une gamme d'informations sur la coupe du monde de football 2022 </p>
+        </div>
+        <div class="box">
+            <h3 id="e">les liens</h3> <ul>
+            <li><a href="mini-site Coupe Du MOnde 2022.html" >Accueil</a></li>
+            <li><a href="#" onclick="Lien3()">Matchs</a></li>
+            <li><a href="#" onclick="Lien2()" >Classement</a></li> 
+            <li><a href="#" onclick="Lien1()">World Cup 2022</a></li>
+            <li><a href="#" onclick="contact()">Contact</li></a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <h3 id="e" >Suivez-nous</h3><ul>
+            <li><a href="#"><img src="image/youtube.png" class="sociaux">Youtube</a></li>
+            <li><a href="#"><img src="image/facebook.png" class="sociaux">Facebook </a></li>
+            <li><a href="#"><img src="image/instagram.png" class="sociaux">Instagram</a></li>
+            <li><a href="#"><img src="image/twiter.png" class="sociaux">Twitter</a>
+            </ul>
+        </div>
+        <P class="version"> © Coupe Du Monde QATAR - 2022 </P>
+    </footer>
+        
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>    
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>   
+    <script src="script.js"></script>
+
+</body>
+</html>

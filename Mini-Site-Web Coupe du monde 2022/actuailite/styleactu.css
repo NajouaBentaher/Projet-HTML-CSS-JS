@@ -1,0 +1,62 @@
+#titr1{
+    margin-left: 42%;
+    font-size: 22px;
+    color: #4E689A;
+    font-family:  'Roboto Slab', serif;
+}
+
+#im1{
+
+    margin-left: 0%;
+    width: 360px;
+    height: 310px;
+    margin-top: -4%;
+    position: absolute;
+    
+}
+#p1{
+
+margin-left: 380px;
+margin-top: 2%;
+font-size: 18px;
+margin-right: 3%;
+width: 68%;
+font-family: 'Roboto Slab', serif;
+
+}
+#im2{
+
+    position: absolute;
+    width: 380px;
+    height: 300px;
+    margin-top: -2%;
+    margin-right: 0%;
+    margin-left:67%;
+
+}
+#p2{
+    margin-left: 0px;
+    margin-top: 0%;
+    font-size: 18px;
+    width: 68%;
+    margin-left: 5px;
+    font-family:  'Roboto Slab', serif;
+}
+
+#titre2{
+    margin-top: 8%;
+    margin-left: 6%;
+    font-size: 22px;
+    font-family:  'Roboto Slab', serif;
+}
+
+#p3{
+    margin-left: 0px;
+    margin-top: 0%;
+    font-size: 18px;
+    width: 95%;
+    margin-left: 5px;
+    font-family:  'Roboto Slab', serif;
+}
+
+
